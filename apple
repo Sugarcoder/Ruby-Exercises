@@ -1,0 +1,30 @@
+# HOURS IN A YEAR
+
+hours = 24
+
+days_year = 365
+
+puts hours * days_years 
+
+
+
+
+# CURRENT AGE
+
+year1 = 2014
+
+year2 = 1998
+
+puts year1 - year2
+
+
+
+
+# REPEATING THE FULL NAME
+
+puts "Howdy partner, what's your name?"
+name = gets                                        # "gets" retrieve strings
+
+
+
+
