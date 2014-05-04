@@ -23,9 +23,11 @@ puts year1 - year2
 # REPEATING THE FULL NAME
 
 puts "Howdy partner, what's your name?"
-name = gets                                        # "gets" retrieve strings
+
+name = gets.chomp                   # "gets" retrieve strings, and "chomp" makes it where it won't skip to the next sentence
 
 puts "So your name is " + name + "? Nice to meet you!"
+
 
 
 
