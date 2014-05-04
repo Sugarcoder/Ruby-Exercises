@@ -25,5 +25,8 @@ puts year1 - year2
 puts "Howdy partner, what's your name?"
 name = gets                                        # "gets" retrieve strings
 
+puts "So your name is " + name + "? Nice to meet you!"
+
+
 
 
