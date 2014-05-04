@@ -32,3 +32,14 @@ puts "So your name is " + name + "? Nice to meet you!"
 
 
 
+# ASK A QUESTION TO A MEAN PERSON
+question1 = gets
+puts "Why are you even wasting my time?"
+question2 = gets
+puts "Didn't I tell you to stop bothering me?!"
+question3 = gets
+puts "The answer is no, and there are no negotiations!"
+
+
+
+
