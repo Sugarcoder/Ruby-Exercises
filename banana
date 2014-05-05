@@ -5,3 +5,39 @@ line_width = 40
 puts('Chapter 1: Getting Started          Page 1'.ljust(line_width))
 puts('Chapter 2: Numbers                  Page 9'.ljust(line_width))
 puts('Chapter 3: Letters                  Page 13'.ljust(line_width))  
+
+
+
+
+
+
+# 99 Bottles of Beer on the Wall
+
+beer = 99
+
+
+while beer == true
+	puts beer + 'bottles of beer on the wall'
+	puts beer + 'bottles of beer'
+	puts 'Take one down, pass it around'
+
+	until beer == 0
+		puts beer - 1 + 'bottles of beer on the wall.'
+	end
+
+end
+
+
+
+
+
+
+# Talking to Grandma
+
+input = ''
+
+while input != "I love you"
+	puts "What did you say? I can only hear you"
+	puts rand(100).to_s + "% of the time, sweetie."
+	input = gets.chomp
+end
