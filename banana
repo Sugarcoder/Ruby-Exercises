@@ -41,3 +41,21 @@ while input != "I love you"
 	puts rand(100).to_s + "% of the time, sweetie."
 	input = gets.chomp
 end
+
+
+
+
+
+
+
+# Leap Years
+
+leap1 = 1980
+max = 2000
+
+
+puts "These are the leap years after 1980:"
+	while leap1 < max
+	puts leap1 
+	leap1 = leap1 + 4
+	end
