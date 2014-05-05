@@ -10,7 +10,6 @@ puts fruits.sort
 
 # Table of Contents v2
 
-line_width = 30
 
 title = "Fruits of the Spirit" 
 
