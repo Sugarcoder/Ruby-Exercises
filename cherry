@@ -1,0 +1,11 @@
+# sorting words
+
+fruits = ["apples", "cherries", "oranges", "bananas"]
+
+puts fruits.sort
+
+
+
+
+
+
