@@ -8,4 +8,26 @@ puts fruits.sort
 
 
 
+# Table of Contents v2
+
+line_width = 30
+
+title = "Fruits of the Spirit" 
+
+chapter_names = ["love         page 1", 
+	             "faith        page 2", 
+	             "patience     page 3", 
+	             "kindness     page 4", 
+	             "goodness     page 5"]
+
+puts title
+
+puts chapter_names
+
+
+
+
+
+
+
 
