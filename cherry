@@ -38,3 +38,15 @@ end
 
 puts roman_numeral('one')
 
+
+
+
+
+
+# Shuffle:
+
+fruits = ["apple", "banana", "cherry"]
+
+puts fruits.shuffle
+
+
