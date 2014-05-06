@@ -7,7 +7,6 @@ puts fruits.sort
 
 
 
-
 # Table of Contents v2
 
 title = "Fruits of the Spirit" 
@@ -21,7 +20,6 @@ chapter_names = ["love         page 1",
 puts title
 
 puts chapter_names
-
 
 
 
@@ -42,11 +40,19 @@ puts roman_numeral('one')
 
 
 
-
 # Shuffle:
 
 fruits = ["apple", "banana", "cherry"]
 
 puts fruits.shuffle
 
+
+
+
+
+# Dictionary Sort
+
+dictionary_sort = ["apple", "Aligator", "Apples"]
+
+puts dictionary_sort.sort
 
