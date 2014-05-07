@@ -1,0 +1,21 @@
+# each = each element of the array is passed by
+
+
+# Example: 
+
+candy = [1,2,3,4,5]
+
+candy.each do |i|
+  puts i
+end
+
+
+
+
+def sweets(candy)
+  bubblegum = []
+  candy.each do |number|
+    bubblegum << number if number < 5
+  end
+  return bubblegum
+end
