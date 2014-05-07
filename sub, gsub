@@ -2,4 +2,8 @@
 
 
 
-#I will look into it when I have time".gsub("I", "We")         # Replaces all "we" with "I"
+"I will look into it when I have time".gsub("I", "We")         # Replaces all "we" with "I"
+
+
+
+"These oranges are organically grown in Oregon".gsub(/[O]/, "B")          # RegEx (Regular expression) = Things between /...../
