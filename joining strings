@@ -1,1 +1,5 @@
 "Don't let others bring you down, " + "because you are awesome just the way you are!"
+
+
+
+"I love " << "you"    # Answer will be "I love you"  (<< = joining strings together)
