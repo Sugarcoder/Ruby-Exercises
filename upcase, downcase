@@ -1,0 +1,4 @@
+"this string is in all lowercase".upcase
+
+
+"CHANGE ME BACK!".downcase
