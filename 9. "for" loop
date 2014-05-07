@@ -1,0 +1,19 @@
+# Example:
+
+candy = [1,2,3,4,5]
+  for i in candy
+    puts i
+end                  # Answer is 1,2,3,4,5
+
+
+
+
+def sweets(candy)
+  bubblegum = []
+    for number in candy
+      bubblegum << number if number > 5               # Put the number of candy into bubblegum if > 5
+    end
+  return bubblegum
+end
+
+
