@@ -1,0 +1,7 @@
+# ? and :   acts like "then, else"
+
+
+# Example: 
+
+def check_amount(number)
+  number > 0 ? "The #{number} is positive" : "The #{number} is negative"
