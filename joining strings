@@ -2,4 +2,8 @@
 
 
 
-"I love " << "you"    # Answer will be "I love you"  (<< = joining strings together)
+"I love " << "you"       # Answer is "I love you"  (<< = joining strings together)
+
+
+
+"Magic".concat("Fingers")      # Answer is "MagicFingers"
