@@ -1,0 +1,9 @@
+programmer = 0.5
+
+unless programmer >= 0.5
+  puts "You need to keep learning how to code."
+end
+
+
+
+# "unless x" is similar to "if !x"
