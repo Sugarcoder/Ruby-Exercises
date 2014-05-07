@@ -1,0 +1,5 @@
+"I will look into it when I have time".sub("I", "We")        # Only replaces one of the words with "we"
+
+
+
+#I will look into it when I have time".gsub("I", "We")         # Replaces all "we" with "I"
