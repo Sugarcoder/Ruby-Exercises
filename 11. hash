@@ -1,0 +1,39 @@
+# hash = { } 
+
+
+# Example: 
+
+fruits = {
+          "apples" => 5,
+          "bananas" => 5,
+          "cherries" => 8
+          }
+          
+          
+          
+          
+# Fetching something from a hash
+
+# Example: Finding the price of Ramen ($3):
+
+restaurant_menu["Ramen"]                  # Put "Ramen" in [   ] to find the price of it
+
+
+
+
+
+# Modifying a hash
+
+# Example:
+
+restaurant_menu = {}
+restaurant_menu["Ramen"] = 5
+restaurant+menu["Green Tea"] = 3
+
+
+
+
+
+
+
+         
