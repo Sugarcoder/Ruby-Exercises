@@ -36,4 +36,54 @@ restaurant+menu["Green Tea"] = 3
 
 
 
-         
+# Iterating over a hash (each)
+
+# Example: 
+
+restaurant_menu = {"Ramen" => 5, "California Roll" => 3, "Tea" => 2}
+
+restaurant_menu.each do | item, price| 
+
+   puts "#{item}: #{price}"
+
+end
+
+
+
+
+
+
+# Modifying the iterated hash (changing the price)
+
+restaurant_menu = { "Ramen" => 5, "California Roll" => 3, "Tea" => 2 }
+
+restaurant_menu.each do |item, price|
+
+  restaurant_menu[item] = price + (price * 0.2)
+end
+
+
+
+
+
+# Hash shortcuts
+
+Candy = Hash[:skittles, 99, :reeces, 98, :chew_bubblegum, true]
+p Candy
+
+
+
+
+def Sweets
+  a = [:skittles, 10]
+  b = [:reeces, 25]
+  c = [:chew_bubblegum, false]
+  candy = [a,b,c]
+  Hash[candy]
+end
+p Sweets
+
+
+
+
+
