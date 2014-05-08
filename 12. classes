@@ -1,0 +1,39 @@
+puts 1.is_a?(Integer)             # True
+puts 1.is_a?(String)              # False
+
+
+
+
+# New = builds a new object 
+
+# Example: Object.new
+
+
+
+
+# @ symbol placed in front of the variable = designates the variable as being a part of the state of the class
+
+# Example:
+
+@candy = candy
+@Chocolate = chocolate
+
+
+
+
+# Example:
+
+class Sweets
+  def initialize(length, piece)
+    @length = length
+    @piece = piece
+  end
+
+  def Candy
+    2 * (@length + @piece)
+  end
+end
+
+
+
+
