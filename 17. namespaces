@@ -1,0 +1,29 @@
+# namespaces = putting similar object names together in a bundle 
+
+# It's like having files with same names in different directories (within a folder).
+
+
+:: = a constant lookup operator that 'looks up' the specific constant only
+
+
+
+# Example:
+
+
+module Apple
+  A = 5
+  module Banana
+    B = 9
+    A = 7
+    
+    class ScopeIn
+      def push
+        10
+      end
+    end
+  end
+end
+
+A = 10
+
+puts "Apple::Banana::ScopeIn.new.push"
