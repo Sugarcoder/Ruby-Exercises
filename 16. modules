@@ -1,0 +1,36 @@
+# Modules only hold behaviors, whereas classes hold behaviors & states. 
+
+# Modules cannot be instantiated. Modules are like the superclass of Class (all classes are modules).
+
+
+
+# Example:
+
+module Candy
+  def sweet_sugar
+    "I like to eat sugar."
+  end
+end
+
+
+class Lollipop
+  include Candy
+  
+    
+  def stick_candy 
+    "Lollipops are fun to lick."
+  end
+end
+
+
+
+
+
+puts Lollipop.new.sweet_sugar             
+
+
+# Even though class Lollipop has its own behavior (stick_candy), it still needs the behavior "sweet_sugar")
+
+
+
+
