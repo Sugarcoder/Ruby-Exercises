@@ -14,3 +14,37 @@ def add_two(integer)
 end
 
 puts add_two(2)
+
+
+
+
+
+# * = Splat operator
+
+# The splat operator is used to handle methods that has a variable parameter list.
+
+
+
+# Examples:
+
+
+def add(*numbers) 
+  numbers.inject(0) { |sum, number| sum + number|
+end
+
+puts add(1)
+puts add((1, 2)
+puts (1, 2, 3)
+ 
+
+    
+    
+    
+def introduction(age, gender, *names)
+
+  "Meet #{names.join(' ')}, who is #{age} and #{gender}"
+  
+end
+    
+    
+    
