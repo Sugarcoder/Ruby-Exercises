@@ -1,0 +1,37 @@
+# "lambda" is just a function (it can also be an object)
+
+# Example (short string): 
+
+1.lambda {"I love to eat cheese."}
+
+puts 1.call
+
+
+Increment = lambda { |number| number + 1}            # Adds a number everytime it is passed. 
+
+
+
+
+# Notes:
+
+# { } = used for short strings
+
+# do...end = used for long strings
+
+
+
+
+# Example (long string): 
+
+1 = lambda do |string| 
+
+if string == "try"
+  return "Try?! You must do!" 
+else 
+  return "There's no such thing as trying. Only doing."
+end
+end
+
+puts 1.call("try")
+
+
