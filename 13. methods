@@ -1,0 +1,16 @@
+# return = using "return" exits the method (avoid using it...or use it at the very end).
+
+
+
+
+# "add_two" is a method, and 2 is the integer
+
+
+# Example: 
+
+
+def add_two(integer)
+  return integer + 2
+end
+
+puts add_two(2)
