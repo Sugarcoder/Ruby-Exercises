@@ -29,7 +29,7 @@ puts add_two(2)
 
 
 def add(*numbers) 
-  numbers.inject(0) { |sum, number| sum + number|
+  numbers.inject(0) { |sum, number| sum + number}
 end
 
 puts add(1)
