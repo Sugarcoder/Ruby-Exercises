@@ -1,0 +1,13 @@
+# Finds all the subsets of unique items: 
+
+
+array = [
+  [], ["a"], ["a","b"], ["a", "b", "c"], ["a", "c"],
+  ["b"], ["b", "c"],
+  ["c"]
+]
+
+Array.new(8)
+
+
+0.upto(8).map { |n| array.combination(n).to_a}
